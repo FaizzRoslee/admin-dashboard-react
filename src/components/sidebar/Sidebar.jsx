@@ -2,7 +2,8 @@ import "./sidebar.css";
 import { 
     Home,
     Timeline,
-    TrendingUp
+    TrendingUp,
+    PersonOutline
  } from "@material-ui/icons";
 
 export default function Sidebar() {
@@ -23,6 +24,15 @@ export default function Sidebar() {
                         <li className="sidebarListItem">
                             <TrendingUp className="sidebarIcon"/>
                             Sales
+                        </li>
+                        
+                    </ul>
+
+                    <h3 className="sidebarTitle">Menu</h3>
+                    <ul className="sidebarList">
+                        <li className="sidebarListItem active">
+                            <PersonOutline className="sidebarIcon"/>
+                            User
                         </li>
                         
                     </ul>
